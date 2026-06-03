@@ -1,46 +1,53 @@
 # SWEat
 
-Full-stack fitness tracking platform built by Sebastian Alvarez.
+SWEat is a full-stack fitness tracking platform designed to help users track workouts, manage fitness goals, and monitor long-term progress through a mobile-friendly experience.
 
-## Overview
+## Status
 
-SWEat allows users to:
+🚧 Currently in Active Development
 
-- Track workouts
-- Record sets and reps
-- Create fitness goals
-- Monitor progress over time
+## Features
 
-## Architecture
+### Implemented
+- Workout session tracking
+- Goal creation and progress tracking
+- RESTful API built with FastAPI
+- SQLite database integration
+- CRUD operations for workouts and goals
 
-Mobile App (React Native)
-        ↓
-FastAPI Backend
-        ↓
-SQLite Database
+### In Progress
+- User authentication with JWT
+- React Native mobile application
+- Progress analytics and insights
+- Improved database architecture with Alembic migrations
 
-## Technologies
+## Tech Stack
 
-Backend
+### Backend
 - Python
 - FastAPI
 - SQLAlchemy
 - SQLite
+- Alembic
 
-Frontend
+### Frontend
 - React Native
 - Expo
 
-## Current Features
+## Planned Features
+- Secure user accounts
+- Personalized dashboards
+- Workout history and statistics
+- Progress charts and visualizations
+- Personal records tracking
+- Cloud deployment
 
-✅ Workout Tracking
+## Project Goals
 
-✅ Goal Management
+The goal of SWEat is to provide a scalable fitness tracking platform while demonstrating full-stack software engineering concepts including API development, database design, authentication, and mobile application development.
 
-🚧 JWT Authentication
+## Author
 
-🚧 Progress Analytics
-
-## Screenshots
-
-(images)
+Sebastian Alvarez  
+Computer Science Student  
+California State University, Fullerton
